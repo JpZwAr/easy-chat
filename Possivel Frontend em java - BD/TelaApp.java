@@ -18,7 +18,7 @@ public class TelaApp extends JFrame implements ActionListener {
         } else if(e.getSource().equals(ver)) {
             new VerConversa();
         } else if(e.getSource().equals(enviar)) {
-            //new EnviarMensagem();
+            new EnviarMensagem();
         } else if(e.getSource().equals(sair)) {
             System.exit(1);
         }
