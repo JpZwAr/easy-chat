@@ -42,3 +42,20 @@ The mensagem table has data that show messages sent via the chats.
 The participante table describes people and in what chats they are in.
 
 Finish, the administrador table describes users that are admins of chats.
+
+## Some prints of the EasyChat
+
+![image](https://user-images.githubusercontent.com/54182167/127801256-b88ce21b-0031-4106-a8ed-a8322d66982d.png)
+Initial window.
+
+![image](https://user-images.githubusercontent.com/54182167/127801311-a6939994-5e68-4172-b910-32f06a2bef11.png)
+Login window.
+
+![image](https://user-images.githubusercontent.com/54182167/127801348-b3e10fc4-47d9-4598-bdfc-0c83ba06519b.png)
+Register window.
+
+![image](https://user-images.githubusercontent.com/54182167/127801434-7fb1ae1a-0926-470c-922d-587a83ceec6a.png)
+Chat creation window.
+
+![image](https://user-images.githubusercontent.com/54182167/127801498-88e0de19-6c80-4efd-877b-c6836f0a9f4b.png)
+Chat joining window.
