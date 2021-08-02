@@ -4,7 +4,7 @@ This repository contains a Java project for a chat application.
 ## Explanation about the project
 
 In the AppEasyChat directory, you will find all the files of the project.
-With him, you can run the project to see the application windows and
+With them, you can run the project to see the application windows and
 interact with the database.
 
 To run the project, you will need to use java in the command line interpreter,
@@ -13,11 +13,11 @@ SQLite 3 Driver, that is a .JAR file used to communicate with the tables.
 
 About the source codes, the Main code, like cited above, is the root of the
 project. In the sequence comes the TelaInicial.java, that is a code to render
-the first window. The first windows has two button, Login and Registrar. If 
+the first window. The first windows has two buttons, Login and Registrar. If 
 you have registered in the app, click Login. If not, click Registrar to create
 an account.
 
-Before logged, you can find a window with a menu bar. The options in menu bar
+After logged, you can find a window with a menu bar. The options in menu bar
 are some operations of the application, like creating a chat or sending messages.
 
 We hope you enjoy the use of EasyChat and comment your impressions. And, once the
@@ -60,7 +60,7 @@ Chat creation window.
 ![image](https://user-images.githubusercontent.com/54182167/127801498-88e0de19-6c80-4efd-877b-c6836f0a9f4b.png)
 Chat joining window.
 
-##Running EasyChat
+## Running EasyChat
 
 To run EasyChat, you need Java. If you don't have it installed, please download [here](https://www.java.com/pt-BR/).
 
@@ -68,8 +68,12 @@ In your preferred command line interpreter, and inside the project directory, ty
 
 javac \*.java to generate the .class files.
 
+If you don't have downloaded the SQLite Driver yet, before running the next command, please download [here](https://www.sqlite.org/download.html).
+
 In the sequence, type:
 
 java -classpath ".;C:/.../sqlite-jdbc-version.jar" Main
 
 The command above tells Java to use the driver for the access to the database.
+
+If everything goes well, you will see the initial window of the EasyChat. Enjoy it!
