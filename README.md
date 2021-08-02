@@ -59,3 +59,17 @@ Chat creation window.
 
 ![image](https://user-images.githubusercontent.com/54182167/127801498-88e0de19-6c80-4efd-877b-c6836f0a9f4b.png)
 Chat joining window.
+
+##Running EasyChat
+
+To run EasyChat, you need Java. If you don't have it installed, please download [here](https://www.java.com/pt-BR/).
+
+In your preferred command line interpreter, and inside the project directory, type:
+
+javac \*.java to generate the .class files.
+
+In the sequence, type:
+
+java -classpath ".;C:/.../sqlite-jdbc-version.jar" Main
+
+The command above tells Java to use the driver for the access to the database.
