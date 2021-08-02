@@ -66,13 +66,13 @@ To run EasyChat, you need Java. If you don't have it installed, please download 
 
 In your preferred command line interpreter, and inside the project directory, type:
 
-  javac \*.java to generate the .class files.
+`javac \*.java to generate the .class files.`
 
 If you don't have downloaded the SQLite Driver yet, before running the next command, please download [here](https://www.sqlite.org/download.html).
 
 In the sequence, type:
 
-  java -classpath ".;C:/.../sqlite-jdbc-version.jar" Main
+`java -classpath ".;C:/.../sqlite-jdbc-version.jar" Main`
 
 The command above tells Java to use the driver for the access to the database.
 
