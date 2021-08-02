@@ -64,6 +64,13 @@ Chat joining window.
 
 To run EasyChat, you need Java. If you don't have it installed, please download [here](https://www.java.com/pt-BR/).
 
+**Important:** In the Conexao.java file, edit the variable *con* to indicate your path to *easyChat.db*. 
+
+
+~~~Java
+con = DriverManager.getConnection("jdbc:sqlite:'path to easyChat.db file'");
+~~~
+
 In your preferred command line interpreter, and inside the project directory, type:
 
 `javac \*.java to generate the .class files.`
